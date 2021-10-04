@@ -276,7 +276,7 @@ const updateRoles = async () => {
       const query = `UPDATE employees SET role_id =? WHERE lastName =?`;
       connection.query(query, [parseInt(role_id), lastName], (err, res) => {
         if (err) throw err;
-        console.log(`${firstName} ${lastName} is now role ID ${role_id}`);
+        console.log(`${lastName} is now role ID ${role_id}`);
       });
       homeScreen();
     } catch (err) {
