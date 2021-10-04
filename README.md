@@ -12,8 +12,10 @@
 - [Contributors](#contributors)
 - [Tests](#tests)
 - [Questions](#questions)
+
+https://www.loom.com/share/f79b0261b1734b63813eb7c878eaa8f2
+
 ## Installation
-(https://www.loom.com/share/f79b0261b1734b63813eb7c878eaa8f2)
 💾 Clone this repository, update all of your companies information in the schema.sql file, and then run node index.js
 ## Usage
 💻 You can add employees, roles, and departments as well as update employee roles and delete employees by answering simple command line questions.
